@@ -350,6 +350,7 @@ class CosmeticCompatibleMode(enum.Enum):
         The material instance is compatible with Festival.
     """
 
+    ALL = 'ECosmeticCompatibleMode::MAX'
     BATTLE_ROYALE = 'ECosmeticCompatibleMode::BattleRoyale'
     LEGO = 'ECosmeticCompatibleMode::Juno'
     ROCKET_RACING = 'ECosmeticCompatibleMode::DelMar'
